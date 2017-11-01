@@ -7,3 +7,5 @@
   * [Criando uma conta](codeanywhere/criando_conta.md)
   * [Criando um container](codeanywhere/criando_container.md)
 * [Como funciona a internet?](internet/como_funciona.md)
+* [Editor de Código](editor_de_codigo/introducao.md)    
+  * [Porque precisamos de um editor de código?](editor_de_codigo/necessidade.md)
