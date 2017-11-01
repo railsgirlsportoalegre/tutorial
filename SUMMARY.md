@@ -21,3 +21,4 @@
     * [Exercite-se!](linha_de_comando/exercitando.md)
     * [Limpando](linha_de_comando/limpando.md)
     * [Resumo](linha_de_comando/resumo.md)
+* [O que Ruby on Rails?](rails/introducao.md)
