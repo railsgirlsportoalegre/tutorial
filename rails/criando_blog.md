@@ -41,6 +41,15 @@ rake db:migrate
 
 Esse comando, diz para o Rails executar todas as migrações que criamos, esse arquivos foi criado ao executarmos o comando `scaffold`, que criou aquele monte de arquivos pra gente, lembra?
 
+Deve aparecer algo parecido no terminal:
+```
+$ rake db:migrate
+== 20171102171306 CreatePosts: migrating ======================================
+-- create_table(:posts)
+   -> 0.0019s
+== 20171102171306 CreatePosts: migrated (0.0020s) =============================
+```
+
 ### Vamos ver o que aparece no navegador agora?
 
 ```sh
