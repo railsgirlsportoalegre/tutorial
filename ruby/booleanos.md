@@ -3,13 +3,13 @@
 Os valores lógicos, chamados de Booleanos, representam verdadeiro e falso.
 
 ```ruby
-tutora_feliz = true
+evento_lindo = true
 ```
 
 ‘**True**’ é verdadeiro em inglês, idioma que a linguagem ruby utiliza.
 
 ```ruby
-tutora_triste = false
+evento_feio = false
 ```
 
 ‘**False**’ é falso em inglês.

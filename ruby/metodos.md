@@ -12,7 +12,7 @@ end
 Ok, mas o que significa tudo isso?
 
 * `def` \- estamos dizendo que estamos definindo um método
-* `escrever_nome` \- esse é o nome do nosso método. note que nele subtituímos
+* `escrever_nome` \- esse é o nome do nosso método. Note que nele subtituímos
   os espaços por traços (\_)
 * `(nome)` \- é o parâmetro do nosso método, uma variável que mandamos para o
   método, para que ele faça algo com ela. Métodos podem receber nenhum, um ou

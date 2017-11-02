@@ -1,6 +1,8 @@
 ### Comentários
 
-São partes do código que não serão executados, podem ser usados pra lembrar de
+Antes de prosseguirmos, só um comentáriozinho ;)
+
+Comentários são partes do código que não serão executados, podem ser usados pra lembrar de
 algo naquela parte do código, por exemplo. São muito bons quando estamos
 aprendendo, pois podemos comentar o que o código está fazendo:
 

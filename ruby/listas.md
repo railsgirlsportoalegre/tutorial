@@ -3,16 +3,16 @@
 As listas de dados são chamados de `Array` e serve para armazenarmos valores de
 vários tipos:
 
-Palvras ou frases:
+Palavras ou frases:
 
 ```ruby
-nomes_das_tutoras = ["Carol", "Bárbara"]
+coachs = ["Carol", "Dessa"]
 ```
 
 Números:
 
 ```ruby
-idades_das_tutoras = [23, 20]
+coachs_idades = [24, 23]
 ```
 
 E tudo junto:
@@ -24,35 +24,35 @@ dados = [10, true, "Carol"]
 Formas para acessar os dados:
 
 ```ruby
-(irb)> print nomes_das_tutoras[0]
-# Carol
-(irb)> dados.at(2)
-(irb)> dados.fetch(10, "Não encontrado!")
-(irb)> dados[-2]
-(irb)> dados.values_at(1,3)
+(irb)> coachs[0]    # Carol
+(irb)> coachs.at(0) # Carol
+(irb)> coachs.fetch(10, "Não encontrado!") # Não encontrado!
+(irb)> coachs[-2]   # Carol
+(irb)> coachs.values_at(1,10) # ["Dessa", nil]
 ```
 
 Inserindo dados:
 
 ```ruby
-(irb)> dados << "qualquer coisa"
-(irb)> dados.insert(-1,3)
-(irb)> dados.push 7
+(irb)> coachs << "qualquer coisa" # ["Carol", "Dessa", "qualquer coisa"]
+(irb)> coachs.insert(-2, "Andri") # ["Carol", "Dessa", "Andri", "qualquer coisa"]
+(irb)> coachs.insert(0, 123)      # [123, "Carol", "Dessa", "Andri", "qualquer coisa"]
+(irb)> coachs.push "Maria"        # ["Carol", "Dessa", "Andri", "qualquer coisa", "Maria"]
 ```
 
 Removendo dados:
 
 ```ruby
-(irb)> dados.pop
-(irb)> dados.shift
-(irb)> dados.delete_at 4
-(irb)> dados.delete 4
+(irb)> coachs.pop                     # "Maria"
+(irb)> coachs.shift                   # "Carol"
+(irb)> coachs.delete_at 2             # "Andri"
+(irb)> coachs.delete "qualquer coisa" # qualquer coisa
 ```
 
 Outros métodos:
 
 ```ruby
-(irb)> dados + ["abc"]
-(irb)> dados * 2
-(irb)> dados.join(", ")
+(irb)> coachs + ["abc"] # ["Carol", "Dessa", "abc"]
+(irb)> coachs * 2       # ["Carol", "Dessa", "Carol", "Dessa"]
+(irb)> coachs.join(", ") "Carol, Dessa"
 ```
