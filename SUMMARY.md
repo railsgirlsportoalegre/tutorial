@@ -22,3 +22,5 @@
     * [Limpando](linha_de_comando/limpando.md)
     * [Resumo](linha_de_comando/resumo.md)
 * [O que Ruby on Rails?](rails/introducao.md)
+* [Criando a aplicação](rails/criando_aplicacao.md)
+  * [Criando o blog](rails/criando_blog.md)
