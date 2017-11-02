@@ -4,7 +4,11 @@ Vamos entender algumas coisas básicas do Ruby como variáveis, arrays, métodos
 etc. Vamos dar uma olhada em o que são cada um desses nomes e o que podemos
 criar com eles :)
 
-Mas antes de continuarmos vamos conhecer o **irb**. Vamos lá? O **irb** é um ambiente
+Mas antes de continuarmos vamos conhecer o **irb**. Vamos lá?
+
+##irb
+
+O **irb** é um ambiente
 interativo para execução de código ruby, nele conseguimos executar código ruby
 de maneira instantânea e ver o resultado do nosso código. Todos os exemplos a
 seguir podem executados no **irb**.
@@ -23,7 +27,20 @@ irb(main):001:0>
 
 Para sair do **irb** você precisa digitar `exit` e pressionar Enter.
 
-Agora que conhecemos o **irb**, vamos conhecer os tipos do ruby?
+As váriaveis e comandos que veremos a seguir podem ser testadas no **ibr**. MAS... o que são varíaveis????? :O Calma, calma, é o que conversaremos a seguir <3 :
+
+## Variáveis
+Variáveis são espaços na memória do computador que utilizamos para guardar dados. Imagina que são caixinhas, no qual colocamos o dado dentro e um nome fora dela, que utilizamos para acessar esse valor. Mas existem tipos de caixa, conforme o tamanho que os dados dentro dela podem ter e o que eles são.
+
+Vamos criar a variável e acessa-la, no **ibr**:
+
+```sh
+irb(main):001:0> meu_nome = "Maria"
+=> "Maria"
+irb(main):002:0> meu_nome
+=> "Maria"
+irb(main):003:0>
+```
 
 ## Tipos básicos no Ruby
 
