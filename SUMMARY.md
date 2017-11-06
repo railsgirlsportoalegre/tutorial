@@ -31,3 +31,6 @@
   * [Controle de fluxo](ruby/controle_fluxo.md)
   * [Laços de repetição](ruby/lacos_repeticao.md)
   * [Onde aprender mais?](ruby/onde_aprender_mais.md)
+* [O que Ruby on Rails?](rails/introducao.md)
+* [Criando a aplicação](rails/criando_aplicacao.md)
+  * [Criando o blog](rails/criando_blog.md)
