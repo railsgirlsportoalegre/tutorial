@@ -25,7 +25,7 @@ E acesse o endereço que acessamos antes para ver o site, deve ser algo parecido
 https://railsgirls-carolinemoers694501.codeanyapp.com/
 ```
 
-![Erro](images/rails/erro_migracao.png)
+![Erro](../images/rails/erro_migracao.png)
 
 Ooops, algo estranho aconteceu. Esse é o nosso primeiro erro, sempre que algo não estiver correto, o Rails irá avisar a gente com uma tela parecida com a da imagem, informando o erro que está acontecendo.
 
@@ -49,7 +49,7 @@ rails server
 
 E vamos visualizar no navegador:
 
-![Blog funcionando](images/rails/app_inicial.png)
+![Blog funcionando](../images/rails/app_inicial.png)
 
 Lindo!! Apareceu a tela de que indica que tudo está funcionando de novo! :D
 
