@@ -10,7 +10,15 @@ Para isso vamos voltar ao terminal, lembra dele? Lá, vamos digitar o comando:
 $ rails new railsgirls
 ```
 
-Esse comando vai criar um projeto inteiro dentro de uma pasta chamada `railsgirls`, esse projeto já vai ter tudo o que precisamos para criar a nosso blog, você deve ter pastas mais ou menos assim:
+Esse comando vai criar um projeto inteiro dentro de uma pasta chamada `railsgirls`, esse projeto já vai ter tudo o que precisamos para criar a nosso blog.
+
+
+Vamos entrar na pasta que o rails criou:
+```
+$ cd railsgirls
+```
+
+Você deve ter pastas mais ou menos assim:
 
 ```
 railsgirls
@@ -23,7 +31,6 @@ railsgirls
 ├───public
 ├───test
 ├───tmp
-├───db
 └───vendor
         .gitignore
         config.ru
@@ -33,12 +40,6 @@ railsgirls
         README.md
 
 ```
-
-Vamos entrar na pasta que o rails criou:
-```
-$ cd railsgirls
-```
-
 
 No terminal, digite o comando:
 
