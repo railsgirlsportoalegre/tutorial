@@ -67,5 +67,4 @@ https://railsgirls-carolinemoers694501.codeanyapp.com
 
 ![Lista de Posts](../images/rails/lista_posts.png)
 
-
 Lindo!! Agora o Rails entende que a primeira tela deve ser a de posts :D
