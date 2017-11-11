@@ -34,3 +34,5 @@
 * [O que Ruby on Rails?](rails/introducao.md)
 * [Criando a aplicação](rails/criando_aplicacao.md)
   * [Criando o blog](rails/criando_blog.md)
+  * [Procurando os posts](rails/rotas.md)
+  * [Criando os posts](rails/criando_posts.md)
