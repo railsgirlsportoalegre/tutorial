@@ -102,6 +102,7 @@ Vamos criar um post novo, e ver o que acontece.
 
 Yeyy, nossa mensagem está em português!
 
+
 ### Continuando...
 
 Ok, agora nós já temos uma aplicação que nos permite criar, atualizar e excluir nossos posts. Mas ainda falta algo. Nós ainda não podemos dizer que um post está publicado, vamos fazer isso?

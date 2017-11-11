@@ -1,5 +1,6 @@
 # Procurando os posts
 
+
 Agora vamos aprender algo novo do Rails, que são as `rotas`, que nada mais são do que caminhos que o Rails cria ao criarmos algo novo. Isso tudo acontece naquele primeiro comando que executamos para criar o Post (rails scaffold...), lembra?
 
 As rotas, ficam num arquivos chamado `routes.rb`, você pode encontrar ele na pasta `config`, dentro da pasta do projeto. Vamos abrir esse arquivo, nele, deve haver uma linha com o conteúdo abaixo:
@@ -65,5 +66,6 @@ https://railsgirls-carolinemoers694501.codeanyapp.com
 ```
 
 ![Lista de Posts](../images/rails/lista_posts.png)
+
 
 Lindo!! Agora o Rails entende que a primeira tela deve ser a de posts :D
