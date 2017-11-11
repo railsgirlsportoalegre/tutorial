@@ -36,3 +36,4 @@
   * [Criando o blog](rails/criando_blog.md)
   * [Procurando os posts](rails/rotas.md)
   * [Criando os posts](rails/criando_posts.md)
+  * [HTML](rails/html.md)
