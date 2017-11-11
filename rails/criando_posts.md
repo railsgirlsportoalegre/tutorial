@@ -12,11 +12,11 @@ E acesse o blog pelo navegador.
 Agora podemos clicar em **New Post** e vamos ir para outra tela, como a imagem abaixo.
 Podemos preencher os campos com as informações do post e clicar no botão **Create Post**
 
-![Novo post](..images/rails/novo_post.png)
+![Novo post](../images/rails/novo_post.png)
 
 Após clicar no botão **Create Post**, vamos ir para uma página como a imagem abaixo.
 
-![Post criado](..images/rails/post_criado.png)
+![Post criado](../images/rails/post_criado.png)
 
 A tela vai ter os dados do post que acabamos de criar, e uma mensagem de que foi criado com sucesso.
 
@@ -97,9 +97,11 @@ rails server
 E no navegador com a mesma url que foi usada antes :)
 
 Vamos criar um post novo, e ver o que acontece.
+
+![Post criado com mensagem em português](../images/rails/post_criado_portugues.png)
+
 Yeyy, nossa mensagem está em português!
 
-![Post criado com mensagem em português](..images/rails/post_criado_portugues.png)
 
 ### Continuando...
 
