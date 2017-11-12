@@ -38,3 +38,7 @@
   * [Criando os posts](rails/criando_posts.md)
   * [HTML](rails/html.md)
   * [Publicando os posts](rails/publicando_posts.md)
+  * [Trabalhando com layouts](rails/layouts.md)
+  * [Descobrindo o CSS](rails/css_introducao.md)
+  * [Alterando a página principal](rails/layout_pagina_principal.md)
+  * [Mudando o estilo do blog](rails/css_blog.md)
