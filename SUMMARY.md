@@ -42,3 +42,4 @@
   * [Descobrindo o CSS](rails/css_introducao.md)
   * [Alterando a página principal](rails/layout_pagina_principal.md)
   * [Mudando o estilo do blog](rails/css_blog.md)
+* [Até Logo](conclusao/ate_logo.md) 
