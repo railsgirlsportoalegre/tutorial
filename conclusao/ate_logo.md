@@ -13,4 +13,4 @@ E venha nos ajudar sendo uma treinadora nas próximas edições ou participando 
 
 Qualquer coisa, nosso contatinho ;)
 railsgirlspoa@gmail.com
-![Layout antes](../images/rails_girls.png)
+![Rails Girls Poa](../images/rails_girls.png)
