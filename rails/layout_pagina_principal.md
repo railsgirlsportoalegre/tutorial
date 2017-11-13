@@ -82,7 +82,7 @@ Nós também alteramos a maneira como os links são mostrados, para usar os íco
 
 Se você iniciar a aplicação, com o comando `rails server`, lembra? E ir no navegador, deverá estar vendo algo como:
 
-![Página Principal](..images/rails/pagina_principal.png)
+![Página Principal](../images/rails/pagina_principal.png)
 
 Note que as informações continuam as mesmas, mas mudamos o jeito de mostrar o post :)
 
