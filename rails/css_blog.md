@@ -54,7 +54,7 @@ Esse código adiciona um estilo a cada um dos nossos posts, dizendo que os títu
 
 Vamos ver como está ficando?
 
-![Estilo final](..images/rails/estilo_final.png)
+![Estilo final](../images/rails/estilo_final.png)
 
 É isso por enquanto, mas ainda tem muito mais coisas que podemos alterar no nosso blog! Caso queira, podemos tirar um tempo pra mudarmos mais o blog e deixá-lo ainda mais lindo :)
 
