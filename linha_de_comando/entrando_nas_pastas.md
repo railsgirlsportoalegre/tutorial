@@ -14,7 +14,7 @@ $ pwd
 ```
 Aqui está!
 
-**Dica de profissional:** se você digitar **cd D** e apertar a tecla _tab_ no seu teclado, a linha de comando irá preencher automaticamente o resto do nome para que você possa navegar rapidamente.
+**Dica de profissional:** se você digitar `cd R` e apertar a tecla _tab_ no seu teclado, a linha de comando irá preencher automaticamente o resto do nome para que você possa navegar rapidamente.
 
 Se houver mais de uma pasta que comece com "D", aperte a tecla tab duas vezes para obter uma lista de opções.
 
