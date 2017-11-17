@@ -186,3 +186,8 @@ O CSS possui diversas propriedades, aqui estão algumas delas:
   * [https://developer.mozilla.org/pt-BR/docs/Web/CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
   * [http://www.maujor.com/tutorial/joe/cssjoe1.php](http://www.maujor.com/tutorial/joe/cssjoe1.php)
   * [http://www.w3schools.com/css/default.asp](http://www.w3schools.com/css/default.asp)
+
+## Para brincar de forma rápida :P
+
+É muito legal inspecionar as páginas e ficar alterando as _tags_ e mudando de cor, tamanho <3
+Mas se quiser estudar mais e criar suas própras páginas, recomendo o: [https://codepen.io/pen/](https://codepen.io/pen/)!
