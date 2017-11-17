@@ -1,7 +1,7 @@
 # Trabalhando com layouts
 
 Layouts são `views`, que criam uma estrutura padrão para o nosso site, esses layouts ficam em `app/layouts`. Por padrão, temos o arquivo `application.html.erb`, que vai estar “em volta” de todas as nossas views.
-Vamos abrir o arquivo, em `app/layouts/application.html.erb`. Ele deve parecer assim:
+Vamos abrir o arquivo, em `app/views/layouts/application.html.erb`. Ele deve parecer assim:
 
 ```html
 <!DOCTYPE html>
