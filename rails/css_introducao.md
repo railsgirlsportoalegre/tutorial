@@ -163,4 +163,4 @@ O CSS possui diversas propriedades, aqui estão algumas delas:
 ## Para brincar de forma rápida :P
 
 É muito legal inspecionar as páginas e ficar alterando as _tags_ e mudando de cor, tamanho <3
-Mas se quiser estudar mais e criar suas próparas páginas, recomendo o: [https://codepen.io/pen/](https://codepen.io/pen/)!
+Mas se quiser estudar mais e criar suas próprias páginas, recomendo o: [https://codepen.io/pen/](https://codepen.io/pen/)!
