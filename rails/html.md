@@ -10,7 +10,7 @@ Na base da estrutura de uma página da Web está o HTML (HyperText Markup Langua
 
 As **tags** são _rótulos_ usados para informar ao navegador como deverá apresentar o site. Ou seja, quando escrevemos HTML estamos escrevendo **tags** que serão interpretadas pelo navegador, resultando no visual do site.
 
-Exemplo: A tag `<h1>` serve para escrever um título, ao inserí-la em um arquivo HTML o browser irá exibir um texto com a formatação de um título.
+Exemplo: A tag `<h1>` serve para escrever um título, ao inseri-la em um arquivo HTML o browser irá exibir um texto com a formatação de um título.
 
 
 ![Imagem de exemplo da tag h1](../images/rails/exemplo_h1.png)
@@ -116,7 +116,7 @@ Resultado:
   </table>
 </div>
 
-Ta bom, agora vamos voltar ao nosso amado **Rails**? :D
+Tá bom, agora vamos voltar ao nosso amado **Rails**? :D
 
 ### Próximo !!!
 

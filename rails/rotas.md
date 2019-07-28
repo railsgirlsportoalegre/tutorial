@@ -9,7 +9,7 @@ As rotas, ficam num arquivos chamado `routes.rb`, você pode encontrar ele na pa
 resources :posts
 ```
 
-Ok, mas o que isso significa? O Rails já cria muitas coisas pra gente, e nessa linha, ele cria automático, todos os caminhos pra criarmos, atualizarmos, vermos, e excluirmos um post.
+Ok, mas o que isso significa? O Rails já cria muitas coisas para gente, e nessa linha, ele cria automático, todos os caminhos para criarmos, atualizarmos, vermos, e excluirmos um post.
 
 Você pode aprender mais sobre rotas nos seguintes links:
 - [https://www.caelum.com.br/apostila-ruby-on-rails/rotas/#8-7-exercicio-rotas](https://www.caelum.com.br/apostila-ruby-on-rails/rotas/#8-7-exercicio-rotas)

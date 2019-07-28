@@ -12,7 +12,7 @@ Se você não estiver familiarizada com programação, pode ser difícil compree
 Igual a todos os outros arquivos, os arquivos HTML precisam ser armazenados em um disco rígido. Para a internet, nós usamos especiais e poderosos computadores chamados de servidores. Eles não têm tela, mouse ou teclado, porque sua finalidade principal é armazenar dados e servi-los. É por isso que eles são chamados de servidores.. --porque eles servem, a você, dados. :P
 
 OK, mas você quer saber com o que a internet se parece, certo?
-Fizemos um desenho pra você! Veja:
+Fizemos um desenho para você! Veja:
 
 ![Internet](../images/internet/internet.png)
 
@@ -25,9 +25,9 @@ Se parece com isso:
 
 ![Requisições](../images/internet/pacotes.png)
 
-Imagine que quando você digita [http://railsgirls.com](http://railsgirls.com), você envia uma carta que diz: "Queridas pessoas do RailsGirls, eu desejo ver o site railsgirls.com. Envie pra mim, por favor!"
+Imagine que quando você digita [http://railsgirls.com](http://railsgirls.com), você envia uma carta que diz: "Queridas pessoas do Rails Girls, eu desejo ver o site railsgirls.com. Envie para mim, por favor!"
 
-Sua carta vai para a agência dos correios mais próxima de você. Depois vai para outra que é um pouco mais perto de seu destinatário, depois para outra e outra, até que ela seja entregue ao seu destino. A única diferença é que, se você enviar muitas cartas (*pacotes de dados*) para o mesmo lugar, cada carta pode passar por diferentes agências de correios (roteadores), dependendo de como elas são distribuídas em cada agência.
+Sua carta vai para a agência dos correios mais próxima de você. Depois, vai para outra que é um pouco mais perto de seu destinatário, depois para outra e outra, até que ela seja entregue ao seu destino. A única diferença é que, se você enviar muitas cartas (*pacotes de dados*) para o mesmo lugar, cada carta pode passar por diferentes agências de correios (roteadores), dependendo de como elas são distribuídas em cada agência.
 
 ![Solicitação](../images/internet/solicitacao.png)
 
@@ -35,7 +35,7 @@ Sim, é simples assim. Você envia mensagens e espera alguma resposta. Claro, em
 
 Em vez de endereços com o nome da rua, cidade, código postal e nome do país, nós usamos endereços IP. Primeiro, seu computador pede ao DNS (Domain Name System - Sistema de Nome de Domínio) para traduzir railsgirls.com para um endereço IP. O funcionamento dele se parece um pouco com as antigas listas telefônicas onde você pode olhar para o nome da pessoa que quer entrar em contato e achar o seu número de telefone e endereço.
 
-Quando você envia uma carta, ela precisa ter certas características para ser entregue corretamente: um endereço, selo, etc. Você também usa uma linguagem que o receptador compreende, certo? O mesmo acontece com os pacotes de dados que você envia para ver um site: você usa um protocolo chamado **HTTP (Hypertext Transfer Protocol - Protocolo de Transferência de Hipertexto)**.
+Quando você envia uma carta, ela precisa ter certas características para ser entregue corretamente: um endereço, selo, etc. Você também usa uma linguagem que o receptor compreende, certo? O mesmo acontece com os pacotes de dados que você envia para ver um site: você usa um protocolo chamado **HTTP (Hypertext Transfer Protocol - Protocolo de Transferência de Hipertexto)**.
 
 Então, basicamente, quando você tem um site, você precisa ter um servidor (máquina) onde ele fica hospedado. O servidor está à espera de quaisquer requisições recebidas (cartas que solicitam ao servidor o envio do seu site) e ele envia de volta seu site (em outra carta).
 

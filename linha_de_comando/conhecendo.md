@@ -2,7 +2,7 @@
 
 Para começar alguns experimentos, precisamos abrir a nossa interface de linha de comando primeiro.
 
-#### Codeanywhere
+#### Codenvy
 Clique com o botão direito em cima de seu container, depois em SSH Terminal:
 
 ![SSH](../images/linha_de_comando/ssh.png)

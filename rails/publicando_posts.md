@@ -59,7 +59,7 @@ Essa coisa louca de `@` é uma coisa do Ruby chamada variável de instância... 
 MAS... dependendo do jeito que criamos a variável, muda o tempo de vida dela, ou seja, quando e onde podemos usar elas. Eita. Péra. Buguei.
 
 Vamos com calma. Não precisamos disso para sobreviver, não agora. Leia aqui:
-[um pouquinho sobre tipos de dados e tipos de dados](https://unbcjr.gitbooks.io/learning-ruby/content/tipos_de_dados.html) se você se sentir curiosa. Isso pode deixar pra deeeeepois, foi só pra deixar você curiosa mesmo ;) Mais tarde, na sua jornada no mundo da programação (e depois de estudar sobre orientação à objetos) essas coisas mágicas de `@`, `@@` e `$` no início das variáveis (que podem aparecer aí no meio do código) vão fazer todo o sentido.
+[um pouquinho sobre tipos de dados e tipos de dados](https://unbcjr.gitbooks.io/learning-ruby/content/tipos_de_dados.html) se você se sentir curiosa. Isso pode deixar para deeeeepois, foi só para deixar você curiosa mesmo ;) Mais tarde, na sua jornada no mundo da programação (e depois de estudar sobre orientação à objetos) essas coisas mágicas de `@`, `@@` e `$` no início das variáveis (que podem aparecer aí no meio do código) vão fazer todo o sentido.
 
 Por agora, basta sabermos que é um tipo de variável (assim como `variavel = "Oi meninaaas"` é também).
 
@@ -132,11 +132,11 @@ Essa linha cria uma nova rota, para podermos chegar no método `publicar` que cr
 
 Estamos dizendo que vamos chamar o controller `PostsController`, na ação `publicar`, enviando um `id`, a identificação do post no banco de dados.
 
-**Obs:** `Controller` é uma coisa muito legal que nós utilizamos pra pegar os dados do banco de dados e colocar na tela (onde fica o **HTML**, chamamos aqui de `View`). É outro daqueles negócio meio punk mas que é legal você pesquisar, mas depooooois :P.
+**Obs:** `Controller` é uma coisa muito legal que nós utilizamos para pegar os dados do banco de dados e colocar na tela (onde fica o **HTML**, chamamos aqui de `View`). É outro daqueles negócio meio punk mas que é legal você pesquisar, mas depooooois :P.
 
-**Obs2:** Uau! Banco de dados!! Certamente já ouviu falar esse nome, né? Isso mesmo, estamos utilizando aqui banco de dados, sem nem percebermos. ;) Mas não se assuste, esse monstrinho é muito amigável: banco de dados é a coisa que vai guardar as informações pra nós. Seria muitoooo penoso se tivéssemos que guardar muitas informações escrevendo à mão, né? Imagina que é uma planilha Excel que a gente guarda tudo lá e consulta as informações depois. Agora não precisamos mexer nele, nem nada, porque Ruby on Rails já criou tudo pra nós :D
+**Obs2:** Uau! Banco de dados!! Certamente já ouviu falar esse nome, né? Isso mesmo, estamos utilizando aqui banco de dados, sem nem percebermos. ;) Mas não se assuste, esse monstrinho é muito amigável: banco de dados é a coisa que vai guardar as informações para nós. Seria muitoooo penoso se tivéssemos que guardar muitas informações escrevendo à mão, né? Imagina que é uma planilha Excel que a gente guarda tudo lá e consulta as informações depois. Agora não precisamos mexer nele, nem nada, porque Ruby on Rails já criou tudo para nós :D
 
-TA BOM, sem enrolação. :P
+TÁ BOM, sem enrolação. :P
 Depois de criar a rota, vamos criar o link no **HTML** (justamente para acessar esta rota e usar o método **Publicar**).
 
 
@@ -243,7 +243,7 @@ Essa linha criará o link (através da rota) para o método que criamos na contr
 
 ## Último passo (finalmente)
 
-Precisamos adicionar somente mais uma linha para mostrar corretamente as nossas mensagens de sucesso ou erro depois que publicamos um post! Para isso no inicio do arquivo `index.html.erb`, adicione a linha:
+Precisamos adicionar somente mais uma linha para mostrar corretamente as nossas mensagens de sucesso ou erro depois que publicamos um post! Para isso no início do arquivo `index.html.erb`, adicione a linha:
 
 ```html
 <p id="notice"><%= notice %></p>

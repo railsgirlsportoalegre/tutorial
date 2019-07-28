@@ -86,7 +86,7 @@ Se você iniciar a aplicação, com o comando `rails server`, lembra? E ir no na
 
 Note que as informações continuam as mesmas, mas mudamos o jeito de mostrar o post :)
 
-Caso queira saber mais sobre `html` e sobre como _alteramos os links com ruby_, você pode acessar esses links:
+Caso queira saber mais sobre `html` e sobre como _alteramos os links com Ruby_, você pode acessar esses links:
 - [http://www.w3schools.com/html/](http://www.w3schools.com/html/)
 
-- [http://api.rubyonrails.org/classes/ActionView/Helpers/UrlHelper.html#method-i-link_to](http://api.rubyonrails.org/classes/ActionView/Helpers/UrlHelper.html#method-i-link_to) _(está em inglês, mas você sempre pode usar o google tradutor :))_
+- [http://api.rubyonrails.org/classes/ActionView/Helpers/UrlHelper.html#method-i-link_to](http://api.rubyonrails.org/classes/ActionView/Helpers/UrlHelper.html#method-i-link_to) _(está em inglês, mas você sempre pode usar o Google Tradutor :))_

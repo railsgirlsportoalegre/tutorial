@@ -7,21 +7,21 @@ rails generate scaffold Post title:string text:text author:string created_date:d
 ```
 Esse comando vai criar uma série de arquivos que já vão possibilitar a criação, atualização e exclusão de posts.
 
-Ta... mas que coisa mágica essa????
-Esta técnica de geração de código se chama **Scaffold**. A gente usa isto para não precisar criar todaaaaa a estrutura que precisamos na mão, se essa estrutura é comum a todo o mundo, entende? Vários sistemas tem sempre o **criar**, **atualizar** e **deletar** dados, né? O código é quase o mesmo! Pra todos esses lugares diferentes.
+Tá... mas que coisa mágica essa????
+Esta técnica de geração de código se chama **Scaffold**. A gente usa isto para não precisar criar todaaaaa a estrutura que precisamos na mão, se essa estrutura é comum a todo o mundo, entende? Vários sistemas têm sempre o **criar**, **atualizar** e **deletar** dados, né? O código é quase o mesmo! para todos esses lugares diferentes.
 
- Imagina que eu quero criar um blog pessoal, e você também, e a colega do lado. Se cada uma de nós fizessemos sozinhas, cada uma de nós criaria basicamente o mesmo código no início. Com o **Scaffold**, basta a gente gerar o código que é comum à nós três (esse código do início) e cada uma de nós alteramos o que precisamos nele depois. Vai nos economizar bastante tempo, não acha? :D
+ Imagina que eu quero criar um blog pessoal, e você também, e a colega do lado. Se cada uma de nós fizéssemos sozinhas, cada uma de nós criaria basicamente o mesmo código no início. Com o **Scaffold**, basta a gente gerar o código que é comum à nós três (esse código do início) e cada uma de nós alteramos o que precisamos nele depois. Vai nos economizar bastante tempo, não acha? :D
 
 Vou explicar rapidinho o que cada parte no comando faz, não usamos nenhuma mágica na verdade, era brinks :P
 
 
 **rails generate scaffold Post:** _generate Scaffold_ é o comando para o rails gerar essa estrutura de **criar**, **visualizar**, **atualizar** e **deletar** posts. Vai ser nosso início! E durante este tutorial, vamos refatorar o código criado.
 
-**tittle:string text:text:** Quando falamos em "criar estrutura" estamos falando de criar migrações para criar as tabelas do banco de dados, por exemplo, entre outras coisas. Depois do comando principal `rails generate scaffold Post` nós colocamos o que iremos criar no banco de dados, que vai ser nosso lugarzinho onde iremos salvar o conteudo dos posts. Neste caso, é uma coluna chamada "_tittle_" do tipo "_string_".
+**tittle:string text:text:** Quando falamos em "criar estrutura" estamos falando de criar migrações para criar as tabelas do banco de dados, por exemplo, entre outras coisas. Depois do comando principal `rails generate scaffold Post` nós colocamos o que iremos criar no banco de dados, que vai ser nosso lugarzinho onde iremos salvar o conteúdo dos posts. Neste caso, é uma coluna chamada "_tittle_" do tipo "_string_".
 É a mesma coisa também no outros: **author:string**, **created_date:datetime** e **published_date:datetime**, que "_author_", "_created_date_" e "_published_date_" são os nomes das novas colunas e logo em seguida aparece seus respectivos tipos.
 
 Parece difícil, mas eu jurooo que não é :')
-Todos esses termos técnicos a gente vai aprender como é na prática ao longo do tutorial ;) seeem estress :P
+Todos esses termos técnicos a gente vai aprender como é na prática ao longo do tutorial ;) seeem stress :P
 
 Ao longo do tutorial vamos mexendo nesses arquivos gerados ;)
 
@@ -59,7 +59,7 @@ O que o Rails está nos dizendo é que nós criamos o Post, mas não dissemos co
 rake db:migrate
 ```
 
-Esse comando, diz para o Rails executar todas as migrações que criamos, esse arquivos foi criado ao executarmos o comando `scaffold`, que criou aquele monte de arquivos pra gente, lembra?
+Esse comando, diz para o Rails executar todas as migrações que criamos, esse arquivos foi criado ao executarmos o comando `scaffold`, que criou aquele monte de arquivos para gente, lembra?
 
 Deve aparecer algo parecido no terminal:
 ```
