@@ -2,7 +2,7 @@
 
 Não queremos deixar uma bagunça, então vamos remover tudo o que fizemos até agora.
 
-Primeiro precisamos voltar para a pasta Desktop:
+Primeiro precisamos voltar para a pasta projects:
 
 ```
 $ cd ..
@@ -10,12 +10,14 @@ $ cd ..
 
 Fazendo cd para .. nós mudaremos do diretório atual para o diretório pai (que significa o diretório que contém o diretório atual).
 
-Veja onde você está:
+Veja se você se encontra na pasta projects:
 
 ```
 $ pwd
-/home/cabox/workspace
+/projects
 ```
+
+Se não está, continue digitando o comando cd .. até chegar na pasta.
 
 Agora é hora de excluir o diretório **railsgirls**.
 
@@ -33,4 +35,5 @@ Pronto! Para ter certeza que a pasta foi excluída, vamos checar:
 $ ls
 ```
 
+Se não houver retorno, é por que foi removida com sucesso. É possível notar também na parte acima do terminal, que não haverá mais informações do seu projeto e do seu arquivo criado anteriormente.
 Por enquanto é isso! 
