@@ -7,4 +7,4 @@ $ ls
 railsgirls
 ```
 
-Ali está a pasta criada! Vamos entrar nela?
+Ali está a pasta do projeto! Vamos entrar nela?

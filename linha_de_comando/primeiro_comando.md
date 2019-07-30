@@ -13,6 +13,6 @@ $ whoami
 olasitarska
 ```
 
-Como você pode ver, o computador só apresentou seu nome de usuário. Elegante, né?:)
+Como você pode ver, o computador só apresentou seu nome de usuário. Elegante, né? :)
 
 **Tente digitar cada comando, não copiar e colar. Você vai se lembrar mais dessa forma!**
