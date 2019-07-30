@@ -14,9 +14,7 @@ preco = 4.5
 
 Sendo `4,5` o valor no exemplo, pois o Ruby representa esses valores com ponto.
 
-**Obs**: Um ponto importante pra citar aqui, é sobre o nome que damos às
-variáveis: elas não devem conter espaços, como podemos ver nas variáveis criadas
-aqui o espaço foi substituído por *underline* (\_).
+**Obs**: Um ponto importante para citar aqui, é sobre o nome que damos às variáveis: elas não devem conter espaços, como podemos ver nas variáveis criadas aqui o espaço foi substituído por *underline* (\_).
 
 Experimente no **irb** algumas operações com números:
 

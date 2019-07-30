@@ -4,28 +4,19 @@ Mas antes, vamos falar um pouco sobre CSS :)
 
 ## O que é CSS?
 
-Quando tags e atributos de cor foram adicionados ao HTML, foi um verdadeiro
-pesadelo para os desenvolvedores web. Desenvolver grandes sites, nos quais
-informações de fontes e cores tinham que ser adicionadas a cada página, se
-tornou um processo longo e caro. Para resolver este problema, a World Wide Web
-Consortium (W3C) criou o CSS.
+Quando tags e atributos de cor foram adicionados ao HTML, foi um verdadeiro pesadelo para os desenvolvedores web. Desenvolver grandes sites, nos quais informações de fontes e cores tinham que ser adicionadas a cada página, se tornou um processo longo e caro. Para resolver este problema, a World Wide Web Consortium (W3C) criou o CSS.
 
-O CSS (Cascading Style Sheets, em português, Folha de Estilos em Cascata)
-controla fontes, cores, margens, linhas, alturas, larguras, imagens de fundo,
-posicionamentos e muito mais. Com o CSS é possível criar diversos estilos
-diferentes para uma mesma estrutura em HTML.
+O CSS (Cascading Style Sheets, em português, Folha de Estilos em Cascata) controla fontes, cores, margens, linhas, alturas, larguras, imagens de fundo, posicionamentos e muito mais. Com o CSS é possível criar diversos estilos diferentes para uma mesma estrutura em HTML.
 
 ## Seletores CSS
 
-Os seletores são a forma de indicar a quais elementos estaremos aplicando as
-propriedades declaradas.
+Os seletores são a forma de indicar a quais elementos estaremos aplicando as propriedades declaradas.
 
 ### Estrutura de um seletor
 
 A estrutura inclui o seletor, nome da propriedade CSS e um valor.
 
-A propriedade e o valor são separados por dois pontos ":" e são cercados por
-chaves "{}":
+A propriedade e o valor são separados por dois pontos ":" e são cercados por chaves "{}":
 
 ```css
 seletor { propriedade: valor; }
@@ -39,38 +30,32 @@ seletor { propriedade: valor; }
 elemento { propriedade: valor; }
 ```
 
-Dessa forma aplicaremos as propriedades em todos os elementos que utilizam a
-tag indicada. Exemplo, todos itens de lista terão a cor azul:
+Dessa forma aplicaremos as propriedades em todos os elementos que utilizam a tag indicada. Exemplo, todos itens de lista terão a cor azul:
 
 ```css
 li { color: blue; }
 ```
 
-**Identificador**: Usa o atributo `id` de um elemento HTML para selecionar um
-elemento específico. O `id` de um elemento deve ser único dentro de uma página.
-No CSS identificamos o tipo `id` com o caracter "#" (hashtag).
+**Identificador**: Usa o atributo `id` de um elemento HTML para selecionar um elemento específico. O `id` de um elemento deve ser único dentro de uma página.
+No CSS identificamos o tipo `id` com o carácter "#" (hashtag).
 
 ```css
 #id-do-elemento { propriedade: valor; }
 ```
 
-Assim podemos indicar pelo atributo `id` qual elemento deve receber a propriedade
-indicada. Exemplo, elemento com `id` "nome" terá o tamanho de fonte 13px:
+Assim podemos indicar pelo atributo `id` qual elemento deve receber a propriedade indicada. Exemplo, elemento com `id` "nome" terá o tamanho de fonte 13px:
 
 ```css
 #nome { font-size: 13px; }
 ```
 
-**Classe**: Usa o atributo "class" das tags HTML. A mesma classe pode ser
-utilizada várias vezes na mesma página. No CSS identificamos o tipo classe com
-o caracter "." (ponto).
+**Classe**: Usa o atributo "class" das tags HTML. A mesma classe pode ser utilizada várias vezes na mesma página. No CSS identificamos o tipo classe com o carácter "." (ponto).
 
 ```css
 .classe-do-elemento { propriedade: valor;}
 ```
 
-Assim podemos selecionar vários elementos com a mesma classe. Exemplo, todos os
-itens com a classe "favorito" terão a cor amarela como fundo:
+Assim podemos selecionar vários elementos com a mesma classe. Exemplo, todos os itens com a classe "favorito" terão a cor amarela como fundo:
 
 ```css
 .favorito { background-color: yellow; }
@@ -104,13 +89,9 @@ O CSS possui diversas propriedades, aqui estão algumas delas:
 
   ### Folha de estilo externa
 
-  Com uma folha de estilo externa, é possível alterar a aparência de um site
-  inteiro, alterando apenas um arquivo. O arquivo de folha de estilo externo
-  deve ser salvo com uma extensão `.css` .
+  Com uma folha de estilo externa, é possível alterar a aparência de um site inteiro, alterando apenas um arquivo. O arquivo de folha de estilo externo deve ser salvo com uma extensão `.css` .
 
-  Cada página HTML deve incluir uma referência para o arquivo de folha de
-  estilo externa no interior do elemento `<link>`. O elemento `<link>` vai
-  dentro da seção `<head>` (logo acima do `<body>`):
+  Cada página HTML deve incluir uma referência para o arquivo de folha de estilo externa no interior do elemento `<link>`. O elemento `<link>` vai dentro da seção `<head>` (logo acima do `<body>`):
 
   ```html
   <html>
@@ -125,9 +106,7 @@ O CSS possui diversas propriedades, aqui estão algumas delas:
 
   ### Folha de estilo interna
 
-  Uma folha de estilo interna pode ser usada se uma única página e tem um
-  estilo único. Estilos internos são definidos dentro do elemento `<style>`,
-  dentro da seção `<head>` de uma página HTML:
+  Uma folha de estilo interna pode ser usada se uma única página e tem um estilo único. Estilos internos são definidos dentro do elemento `<style>`, dentro da seção `<head>` de uma página HTML:
 
   ```html
   <html>
@@ -144,12 +123,7 @@ O CSS possui diversas propriedades, aqui estão algumas delas:
 
   ### Estilo em linha
 
-  Um estilo em linha pode ser usado para aplicar um modelo exclusivo em um
-  único elemento.
-  Para usar estilos em linha, adicione o atributo de estilo `style` ao
-  elemento relevante. O atributo de estilo pode conter qualquer propriedade CSS.
-  Esta maneira de aplicar estilos não é muito recomendada, pois pode causar
-  re-trabalho e códigos confusos.
+  Um estilo em linha pode ser usado para aplicar um modelo exclusivo em um único elemento. Para usar estilos em linha, adicione o atributo de estilo `style` ao elemento relevante. O atributo de estilo pode conter qualquer propriedade CSS. Esta maneira de aplicar estilos não é muito recomendada, pois pode causar re-trabalho e códigos confusos.
 
   ```html
   <h1 style="color: blue; margin-left: 30px;">Título</h1>
@@ -167,8 +141,7 @@ O CSS possui diversas propriedades, aqui estão algumas delas:
   </style>
   ```
 
-  No exemplo acima estamos indicando que elementos que contenham a classe de
-  estilo `favorito` possuam o fundo na cor amarela se utilizados da seguinte forma:
+  No exemplo acima estamos indicando que elementos que contenham a classe de estilo `favorito` possuam o fundo na cor amarela se utilizados da seguinte forma:
 
   ```html
   <ul>
@@ -190,4 +163,4 @@ O CSS possui diversas propriedades, aqui estão algumas delas:
 ## Para brincar de forma rápida :P
 
 É muito legal inspecionar as páginas e ficar alterando as _tags_ e mudando de cor, tamanho <3
-Mas se quiser estudar mais e criar suas própras páginas, recomendo o: [https://codepen.io/pen/](https://codepen.io/pen/)!
+Mas se quiser estudar mais e criar suas próprias páginas, recomendo o: [https://codepen.io/pen/](https://codepen.io/pen/)!

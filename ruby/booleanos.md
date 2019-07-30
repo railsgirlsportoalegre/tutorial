@@ -6,7 +6,7 @@ Os valores lógicos, chamados de Booleanos, representam verdadeiro e falso.
 evento_lindo = true
 ```
 
-‘**True**’ é verdadeiro em inglês, idioma que a linguagem ruby utiliza.
+‘**True**’ é verdadeiro em inglês, idioma que a linguagem Ruby utiliza.
 
 ```ruby
 evento_feio = false

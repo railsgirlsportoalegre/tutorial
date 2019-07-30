@@ -56,7 +56,7 @@ Vamos ver como está ficando?
 
 ![Estilo final](../images/rails/estilo_final.png)
 
-É isso por enquanto, mas ainda tem muito mais coisas que podemos alterar no nosso blog! Caso queira, podemos tirar um tempo pra mudarmos mais o blog e deixá-lo ainda mais lindo :)
+É isso por enquanto, mas ainda tem muito mais coisas que podemos alterar no nosso blog! Caso queira, podemos tirar um tempo para mudarmos mais o blog e deixá-lo ainda mais lindo :)
 
 --
 

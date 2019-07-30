@@ -1,7 +1,7 @@
-# Vamos criar alguns posts, pra ver o que acontece?
+# Vamos criar alguns posts, para ver o que acontece?
 
 Agora podemos ver a tela dos nossos posts, mas ainda não cadastramos nenhum, vamos fazer isso?
-Se no terminal não estiver executantodo o comando abaixo, lembre-se de fazer :)
+Se no terminal não estiver executando o comando abaixo, lembre-se de fazer :)
 
 ```sh
 rails server
@@ -74,7 +74,7 @@ def create
 
     respond_to do |format|
       if @post.save
-        format.html { redirect_to @post, notice: 'O post foi cirado com sucesso.' }
+        format.html { redirect_to @post, notice: 'O post foi criado com sucesso.' }
         format.json { render :show, status: :created, location: @post }
       else
         format.html { render :new }
