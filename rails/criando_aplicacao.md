@@ -4,58 +4,32 @@
 
 Então, vamos finalmente criar nosso blog?
 
-Para isso vamos voltar ao terminal, lembra dele? Lá, vamos digitar o comando:
+Como já vimos, o nosso projeto Rails já está criado no Codenvy! Você deve ver arquivos e pastas criados como mostra a imagem. 
 
-```sh
-$ rails new railsgirls
-```
+![Aplicacao](../images/rails/projeto_criado.png)
 
-Esse comando vai criar um projeto inteiro dentro de uma pasta chamada `railsgirls`, esse projeto já vai ter tudo o que precisamos para criar a nosso blog.
+Primeiro, precisamos instalar todas as dependências necessária para que possamos executar este projeto. Para isso, vamos fazer uso das ferramentas do Codenvy.
 
+Vamos selecionar a aba **Commands**, que fica ao lado esquerdo do seu projeto. Selecione o item **railsgirls:install dependencies** (instalar dependências) clicando duas vezes nele. A imagem abaixo mostra o resultado.
 
-Vamos entrar na pasta que o rails criou:
-```
-$ cd railsgirls
-```
+![Aplicacao](../images/rails/instalando_dependencias.png)
 
-Você deve ter pastas mais ou menos assim:
+Você verá que seu terminal mostrará diversas linhas de texto. Isto significa que estamos instalando tudo o que precisamos para rodar o nosso projeto!
 
-```
-railsgirls
-├───app
-├─── bin
-├───config
-├───db
-├───lib
-├───log
-├───public
-├───test
-├───tmp
-└───vendor
-        .gitignore
-        config.ru
-        Gemfile
-        Gemfile.lock
-        Rakefile
-        README.md
+Por baixo dos panos, quando selecionamos o **railsgirls:installdependencies**, ele executa o comando Rails `bundle install` no terminal. Este comando é utilizado sempre que queremos instalar as dependências necessárias para podermos executar nosso projeto.
 
-```
+Em seguida, vamos executar o comando para executar o nosso projeto! 
 
-No terminal, digite o comando:
+![Aplicacao](../images/rails/executando_projeto.png)
 
-```sh
-$ rails server
-```
-Esse comando vai dizer para o Rails que queremos que nossa aplicação inicie, ou seja, assim como quando ligamos nosso computador e iniciamos um programa, queremos que o rails inicie um `servidor` (lembra quando falamos sobre como a internet funciona?) e nossa aplicação :)
+Quando selecionamos a opção **railsgirls:run**, vamos executar o comando `rails server` no terminal automaticamente. Este comando vai dizer para o Rails que queremos que nossa aplicação inicie. Assim como quando ligamos nosso computador e iniciamos um programa, queremos que o rails inicie um `servidor` (lembra quando falamos sobre como a internet funciona?) e nossa aplicação :)
 
-Vamos ver o que o já temos?
+É importante utilizarmos estes atalhos no Codenvy para conseguirmos acessar nosso projeto pelo nosso browser. Vamos ver o que o já temos?
 
-No navegador, acesse a segunda URL que aparece nas informações do container do codeanywhere, deve ser algo parecido com isso:
-
-![URL aplicação](../images/rails/url.png)
+Para isso, vamos clicar no link marcado como **preview**, em azul, ali no terminal. Na imagem, ele é `http://node25.codenvy.io:46408`, mas para você ele deve ser um pouco diferente. Este link abrirá o navegador.
 
 Você deve estar vendo algo assim:
 
-![Primeira tela app](../images/rails/app_inicial.png)
+![Primeira tela app](../images/rails/rails_inicial.png)
 
 YAY! Já temos nossa aplicação rodando! Vamos começar a customizar?
