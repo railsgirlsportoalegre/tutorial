@@ -14,6 +14,8 @@ evento_feio = false
 
 ‘**False**’ é falso em inglês.
 
+**Obs**: Um aspecto importante sobre o nome que damos às variáveis: elas não devem conter espaços, como podemos ver nas variáveis criadas aqui o espaço foi substituído por *underline* (\_).
+
 ```ruby
 (irb)> true != false
 # true

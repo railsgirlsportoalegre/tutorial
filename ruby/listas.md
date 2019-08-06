@@ -1,6 +1,6 @@
 ### Listas de dados
 
-As listas de dados são chamados de `Array` e serve para armazenarmos valores de vários tipos:
+As listas de dados são chamados de `Array`. Elas servem para armazenarmos uma lista de valores de vários tipos:
 
 Palavras ou frases:
 

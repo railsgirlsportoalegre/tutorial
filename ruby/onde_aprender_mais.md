@@ -1,6 +1,6 @@
 ### Onde aprender mais sobre Ruby?
 
-Abaixo, alguns links que podem ajudar a ver mais sobre ruby, e a treinar um pouquinho também :)
+Abaixo, alguns links que podem ajudar você a saber mais sobre ruby, e a treinar um pouquinho também :)
 
 * [https://www.codecademy.com/pt-BR/courses/ruby-beginner-pt-BR](https://www.codecademy.com/pt-BR/courses/ruby-beginner-pt-BR)
 * [https://howtocode.io/ruby/](https://howtocode.io/ruby/) está em inglês, mas é bom tentar dar uma olhada ;) vai firme do Google Tradutor :P
