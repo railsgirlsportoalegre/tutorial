@@ -7,6 +7,6 @@ $ pwd
 /projects
 ```
 
-Provavelmente você vai ver algo parecido na sua máquina. Um vez que você abre a linha de comando você já começa na pasta projects.
+Provavelmente você vai ver algo parecido na sua máquina. Uma vez que você abre a linha de comando você já começa na pasta projects.
 
-**Nota:** 'pwd' significa 'print working directory'.
+**Nota:** 'pwd' significa 'print working directory - imprima o diretório atual'.

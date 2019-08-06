@@ -19,14 +19,14 @@ $ pwd
 
 Se não está, continue digitando o comando cd .. até chegar na pasta.
 
-Agora é hora de excluir o diretório **railsgirls**.
+Agora é hora de excluir o diretório **umapasta**.
 
 **Atenção:** A exclusão de arquivos usando del, rmdir ou rm é irrecuperável, significando _Arquivos excluídos vão embora para sempre!_
 
 Então, tenha cuidado com este comando.
 
 ```
-$ rm -r railsgirls
+$ rm -r umapasta
 ```
 
 Pronto! Para ter certeza que a pasta foi excluída, vamos checar:
