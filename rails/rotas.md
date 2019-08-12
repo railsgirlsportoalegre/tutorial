@@ -1,7 +1,7 @@
 # Procurando os posts
 
 
-Agora vamos aprender algo novo do Rails, que são as `rotas`, que nada mais são do que caminhos que o Rails cria ao criarmos algo novo. Isso tudo acontece naquele primeiro comando que executamos para criar o Post (rails scaffold...), lembra?
+Agora vamos aprender algo novo do Rails: as `rotas`, que nada mais são do que caminhos que o Rails cria ao criarmos algo novo. Isso tudo acontece naquele primeiro comando que executamos para criar o Post (rails scaffold...), lembra?
 
 As rotas, ficam num arquivos chamado `routes.rb`, você pode encontrar ele na pasta `config`, dentro da pasta do projeto. Vamos abrir esse arquivo, nele, deve haver uma linha com o conteúdo abaixo:
 
@@ -17,7 +17,7 @@ Você pode aprender mais sobre rotas nos seguintes links:
 - [http://www.devmedia.com.br/introducao-a-rotas-e-responders-no-ruby-on-rails/33521](http://www.devmedia.com.br/introducao-a-rotas-e-responders-no-ruby-on-rails/33521)
 
 
-Agora, se irmos no navegador, naquele endereço que fomos antes, mas adicionando `/posts` no fim, como o exemplo:
+Agora, se formos no navegador, naquele endereço que fomos antes, mas adicionando `/posts` no fim, como o exemplo:
 
 ```
 https://railsgirls-carolinemoers694501.codeanyapp.com/posts
@@ -27,7 +27,7 @@ Vamos ver a imagem abaixo. Uhuul!! Podemos criar nossos posts agora :D
 
 ![Lista de Posts](../images/rails/lista_posts.png)
 
-Mas calma, e se eu quiser que quando acessar o site, ele caia direto na tela dos posts ao invés daquela tela do Rails?
+Mas calma! E se eu quiser que quando eu acessar o site, ele caia direto na tela dos posts ao invés daquela tela do Rails?
 
 Podemos fazer isso também, vamos lá!
 
@@ -53,17 +53,7 @@ Nós adicionamos a linha root `posts#index`, que diz ao Rails que ao acessarmos 
 
 ### E quando acessamos no navegador agora...
 
-No terminal digite o comando abaixo para iniciar a aplicação, caso esteja rodando já, lembre de parar, teclando CTRL+C e iniciando de novo:
-
-```sh
-rails server
-```
-
-E no navegador a sua url que deve ser parecida com:
-
-```
-https://railsgirls-carolinemoers694501.codeanyapp.com
-```
+Acessando a url sem o `/post` no final, vamos ver a tela abaixo!
 
 ![Lista de Posts](../images/rails/lista_posts.png)
 

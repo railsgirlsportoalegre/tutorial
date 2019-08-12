@@ -1,13 +1,8 @@
 # Vamos criar alguns posts, para ver o que acontece?
 
-Agora podemos ver a tela dos nossos posts, mas ainda não cadastramos nenhum, vamos fazer isso?
-Se no terminal não estiver executando o comando abaixo, lembre-se de fazer :)
+Agora podemos ver a tela dos nossos posts! Mas ainda não cadastramos nenhum, vamos fazer isso?
 
-```sh
-rails server
-```
-
-E acesse o blog pelo navegador.
+Acesse o blog pelo navegador.
 
 Agora podemos clicar em **New Post** e vamos ir para outra tela, como a imagem abaixo.
 Podemos preencher os campos com as informações do post e clicar no botão **Create Post**
@@ -54,7 +49,7 @@ def create
 ```
 
 Esse é o método chamado quando clicamos no botão **Create post**.
-Ele cria um post novo, com os dados que colocamos nos campos e retorna o html que mostra o post, informando a mensagem. Vamos mudar a mensagem você pode procurar o método `create`, na linha onde está escrito
+Ele cria um post novo, com os dados que colocamos nos campos e retorna o html que mostra o post, informando a mensagem. Vamos primeiro mudar a mensagem de sucesso. Você pode procurar o método `create`, na linha onde está escrito
 
 ```ruby
 format.html { redirect_to @post, notice: 'Post was successfully created.' }
@@ -88,13 +83,7 @@ Agora é a sua vez, pode fazer o mesmo no método **update** e **destroy** :D
 
 ### Vamos testar a mensagem nova?
 
-No terminal digite o comando abaixo para iniciar a aplicação, caso esteja rodando já, lembre de parar, teclando CTRL+C e iniciando de novo:
-
-```sh
-rails server
-```
-
-E no navegador com a mesma url que foi usada antes :)
+Vamos acessar no navegador a mesma url que foi usada antes :)
 
 Vamos criar um post novo, e ver o que acontece.
 

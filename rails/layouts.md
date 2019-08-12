@@ -1,13 +1,13 @@
 # Trabalhando com layouts
 
-Layouts são `views`, que criam uma estrutura padrão para o nosso site, esses layouts ficam em `app/layouts`. Por padrão, temos o arquivo `application.html.erb`, que vai estar “em volta” de todas as nossas views.
+Layouts são `views`, que criam uma estrutura padrão para o nosso site. Esses layouts ficam em `app/layouts`. Por padrão, temos o arquivo `application.html.erb`, que vai estar “em volta” de todas as nossas demais views.
 Vamos abrir o arquivo, em `app/views/layouts/application.html.erb`. Ele deve parecer assim:
 
 ```html
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Railsgirls</title>
+    <title>Webapp</title>
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
     <%= csrf_meta_tags %>
@@ -39,7 +39,7 @@ Esta linha inclui uma tag de segurança, que faz com que o Rails saiba que cada 
 ```html
 <%= yield %>
 ```
-Aqui acontece uma coisa linda do Rails, na linha acima serão incluídos nossas outras views, de acordo com as páginas que acessamos. Por exemplo, quando acessamos a página inicial do site, vamos ver todos nossos posts, e o html que forma isso é a view em `app/posts/index.html.erb` _(lembra quando adicionamos o link?)_. O conteúdo do arquivo `index.html.erb` que vai ficar em `<% yield %>`
+Aqui acontece uma coisa linda do Rails: na linha acima serão incluídos nossas outras views, de acordo com as páginas que acessarmos. Por exemplo, quando acessamos a página inicial do site, vamos ver todos nossos posts, e o html que forma isso é a view em `app/posts/index.html.erb` _(lembra quando adicionamos o link?)_. O conteúdo do arquivo `index.html.erb` que vai ficar em `<% yield %>`
 
 ### Vamos mexer no application.html.erb :D
 
@@ -73,13 +73,7 @@ Vamos adicionar as linhas em destaque no arquivo, isso vai adicionar o `bootstra
 
 ## Vamos testar?
 
-No terminal digite o comando abaixo para iniciar a aplicação, caso esteja rodando já, lembre de parar, teclando CTRL+C e iniciando de novo:
-
-```sh
-rails server
-```
-
-E no navegador acesse pela mesma url de antes :)
+No navegador acesse pela mesma url de antes :)
 
 E a diferença, antes:
 

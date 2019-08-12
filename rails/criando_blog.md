@@ -1,14 +1,21 @@
 # Vamos começar a criar nosso blog?
 
-No terminal, escreva o comando abaixo:
+No terminal, garanta que você está na pasta do projeto `railsgirls` com o comando:
+
+```sh
+cd railsgirls
+pwd
+> /projects/railsgirls
+```
+Depois de garantir que estamos na pasta certa, vamos executar este comando:
 
 ```sh
 rails generate scaffold Post title:string text:text author:string created_date:datetime published_date:datetime
 ```
 Esse comando vai criar uma série de arquivos que já vão possibilitar a criação, atualização e exclusão de posts.
 
-Tá... mas que coisa mágica essa????
-Esta técnica de geração de código se chama **Scaffold**. A gente usa isto para não precisar criar todaaaaa a estrutura que precisamos na mão, se essa estrutura é comum a todo o mundo, entende? Vários sistemas têm sempre o **criar**, **atualizar** e **deletar** dados, né? O código é quase o mesmo para todos esses lugares diferentes.
+Ta... mas que coisa mágica é essa????
+Esta técnica de geração de código se chama **Scaffold**. A gente usa isto para não precisar criar todaaaaa a estrutura que precisamos na mão, se essa estrutura é comum a todo o mundo, entende? Vários sistemas tem sempre o **criar**, **atualizar** e **deletar** dados, né? O código é quase o mesmo! Pra todos esses lugares diferentes.
 
  Imagina que eu quero criar um blog pessoal, e você também, e a colega do lado. Se cada uma de nós fizéssemos sozinhas, cada uma de nós criaria basicamente o mesmo código no início. Com o **Scaffold**, basta a gente gerar o código que é comum à nós três (esse código do início) e cada uma de nós alteramos o que precisamos nele depois. Vai nos economizar bastante tempo, não acha? :D
 
@@ -33,17 +40,7 @@ No terminal você verá algo como a imagem abaixo, estes são todos os arquivos 
 
 ### Verificando se tudo está funcionando
 
-Vamos ver o que temos aparece no navegador agora, no terminal digite:
-
-```sh
-rails server
-```
-
-E acesse o endereço que acessamos antes para ver o site, deve ser algo parecido com isso:
-
-```
-https://railsgirls-carolinemoers694501.codeanyapp.com/
-```
+Vamos ver o que temos aparece no navegador agora. Como já executamos o comando de `run` do codenvy, não precisamos executá-lo novamente. É só clicar no link do browser!
 
 ![Erro](../images/rails/erro_migracao.png)
 
@@ -72,13 +69,7 @@ $ rake db:migrate
 
 ### Vamos ver o que aparece no navegador agora?
 
-```sh
-rails server
-```
-
-E vamos visualizar no navegador:
-
-![Blog funcionando](../images/rails/app_inicial.png)
+![Blog funcionando](../images/rails/rails_inicial.png)
 
 Lindo!! Apareceu a tela de que indica que tudo está funcionando de novo! :D
 
