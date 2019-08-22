@@ -4,7 +4,7 @@ Digite o seguinte comando:
 
 ```
 $ ls
-railsgirls
+railsgirls umapasta
 ```
 
-Ali está a pasta criada! Vamos entrar nela?
+Ali está a pasta do projeto e a pasta que acabamos de criar! Vamos entrar na **umapasta**?

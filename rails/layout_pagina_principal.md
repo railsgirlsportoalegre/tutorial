@@ -76,11 +76,11 @@ Agora, substitua todo o código do arquivo `app/views/posts/index.html.erb`, pel
 </div>
 ```
 
-O que fizemos no passo anterior, foi basicamente remover a tabela que tinha, e mostrar a informação de uma maneira diferente, utilizando `div` (lembra das tags do HTML?).
+O que fizemos no passo anterior foi basicamente remover a tabela que tinha, e mostrar a informação de uma maneira diferente, utilizando `div` (lembra das tags do HTML?).
 
 Nós também alteramos a maneira como os links são mostrados, para usar os ícones do Bootstrap. Mas continua sendo como quando criamos o link da primeira vez.
 
-Se você iniciar a aplicação, com o comando `rails server`, lembra? E ir no navegador, deverá estar vendo algo como:
+Se você for no navegador e recarregar a página, deverá estar vendo algo como:
 
 ![Página Principal](../images/rails/pagina_principal.png)
 

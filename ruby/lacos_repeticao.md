@@ -1,10 +1,10 @@
 ### Laço de repetição
 
-Em algumas situações precisamos repetir um operação em elementos de um conjunto de dados e podemos realizar tal tarefa utilizando laços.
+Em algumas situações precisamos repetir uma operação em elementos de um conjunto de dados. Podemos realizar esta tarefa utilizando laços.
 
-Imprimir 2 nomes de uma lista é fácil, certo? Mas imagina escrever 100 nomes!! Utilizamos laços para nos poupar de escrever códigos duplicados.
+Imprimir 2 nomes de uma lista é fácil, certo? Mas imagina escrever 100 nomes! Utilizamos laços para nos poupar de escrever códigos duplicados.
 
-Por exemplo, podemos imprimir os nomes de uma lista utilizando o `for`, percorrendo a lista, item a item:
+Por exemplo, podemos imprimir todos os nomes em uma lista utilizando o `for`, percorrendo a lista, item a item:
 
 ```ruby
 lista_de_nomes = ["Juliana", "Enzo", "Roberto"]

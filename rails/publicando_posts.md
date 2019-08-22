@@ -1,6 +1,6 @@
 # Publicando posts
 
-Ok, esse vai ser grande!! Vamos com calma, qualquer dúvida, chame sua coach <3
+Ok, esse vai ser grande! Vamos com calma, qualquer dúvida, chame sua coach <3
 
 
 Então... vamos criar um método para atualizar a data de publicação do nosso post para a data atual. Bora?
@@ -23,7 +23,7 @@ def publicar
   end
 ```
 
-**Obs:** Você pode adicionar essa parte do código logo depois do método destroy.
+**Obs:** Você pode adicionar essa parte do código logo depois do método destroy. Cuide para adicionar antes da palavra `private`.
 
 Antes de explicarmos o método, temos que adicionar só mais uma coisa, neste mesmo `posts_controller.rb`. Você deve ter uma linha parecida com a abaixo no seu arquivo:
 
@@ -239,7 +239,7 @@ Vai ficar assim:
 <% end %>
 ```
 
-Essa linha criará o link (através da rota) para o método que criamos na controller. O controller vai publicar o post e retornará para a mesma tela, com o post atualizado :D YEY!
+Essa linha criará o link (através da rota) para o método que criamos no controller. O controller vai publicar o post e retornará para a mesma tela, com o post atualizado :D YEY!
 
 ## Último passo (finalmente)
 
@@ -293,13 +293,7 @@ Agora, seu `index.html.erb` deve estar assim:
 ```
 
 ### Vamos testar? :D
-No terminal digite o comando abaixo para iniciar a aplicação. Caso já esteja rodando, lembre-se de pará-lo com CTRL+C e iniciando de novo:
-
-```sh
-rails server
-```
-
-E abra o blog no navegador com a mesma url já utilizada :)
+Abra o blog no navegador com a mesma url já utilizada :)
 
 ![Publicando um post link](../images/rails/publicando_post_link.png)
 

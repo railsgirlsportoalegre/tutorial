@@ -1,9 +1,9 @@
 ## Criando uma pasta
 
-Que tal criar um diretório na sua área de trabalho? Você pode fazer assim:
+Que tal tentar criar um diretório na sua área de trabalho? Você pode fazer assim:
 
 ```
-$ mkdir railsgirls
+$ mkdir umapasta
 ```
 
-Este comando vai criar uma pasta com o nome railsgirls no nosso desktop. Vamos verificar se ela está lá?
+Este comando cria uma pasta com o nome **umapasta** no diretório em que você está (No caso do Codenvy, você provavelmente está no diretório **projects**). Após executar este comando, a pasta deve ter sido criada. Vamos verificar se a pasta do projeto está lá?
