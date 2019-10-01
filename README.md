@@ -4,7 +4,7 @@
 
 Esse tutorial é uma modificação usando o conteúdo do [tutorial original](http://guides.railsgirls.com/guides-ptbr/) disponível na página do Rails Girls Guides e também do [tutorial do Django Girls](https://tutorial.djangogirls.org/pt/).
 
-O tutorial original do Rails Girls pode ser dividido em duas partes: preparação do ambiente e trabalho direto com programação Ruby on Rails. Mas a primeira parte, a instalação dos programas, era difícil e costumavam acontecer diversos erros devido a instalação ser feita na própria máquina. Portanto, optamos por usar o Codenvy (em edições anteriores utilizamos o Codeanywhere). Apresentaremos a ferramenta no próximo capítulo.
+O tutorial original do Rails Girls pode ser dividido em duas partes: preparação do ambiente e trabalho direto com programação Ruby on Rails, além de um conteudo para quem quer continuar aprendendo sobre Ruby Rails. Mas a primeira parte, a instalação dos programas, era difícil e costumavam acontecer diversos erros devido a instalação ser feita na própria máquina. Portanto, optamos por usar o Codenvy (em edições anteriores utilizamos o Codeanywhere). Apresentaremos a ferramenta no próximo capítulo.
 
 O tutorial do Django Girls possui conteúdos super bem explicados e lindos que vão facilitar muito nosso entendimento na hora de pôr a mão na massa, por isso pegamos alguns emprestados :)
 

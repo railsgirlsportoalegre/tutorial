@@ -5,5 +5,6 @@ Ele se parecerá (mais ou menos) com isso:
 
 
 ![Blog finalizado](images/rails/estilo_final.png)
+![Blog finalizado](images/logovermelho.jpg)
 
 Vamos lá!
