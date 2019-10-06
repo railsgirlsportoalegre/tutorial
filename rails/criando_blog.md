@@ -67,6 +67,66 @@ $ rake db:migrate
 == 20171102171306 CreatePosts: migrated (0.0020s) =============================
 ```
 
+### Adicionando db:migrate nos comandos do Codenvy
+
+Sempre que sua máquina ficar inativa por 10 minutos, será necessário repetir o `rake db:migrate` novamente. Além disso, quando ela fica inativa, ela não salva os posts que já foram criados. Ou seja, toda vez que tivermos que reanimar a máquina, teremos que executar o comando e não teremos mais os posts que criamos anteriormente. Para facilitar nossas vidas, vamos criar um comando para resolver este problema.
+
+#### Criação dos `seeds`
+
+Os seeds são uma ferramenta que utilizamos para preencher nosso banco de dados. Isto significa que podemos utilizá-los para gerar nossos posts automaticamente, sem precisarmos acessar o blog e adicionar manualmente cada post.
+
+No arquivo `railsgirls/db/seeds.rb`, vamos adicionar o seguinte texto:
+
+```
+Post.create!([{ title: 'Primeiro Post',
+                text: 'Este é o primeiro post do blog!',
+                author: 'Ana',
+                created_date: DateTime.new(2019, 9, 30, 12, 0),
+                published_date: DateTime.new(2019, 9, 30, 12, 0),
+                created_at: DateTime.new(2019, 9, 30, 12, 0),
+                updated_at: DateTime.new(2019, 9, 30, 12, 0)},
+                { title: 'Segundo Post',
+                text: 'Este é o segundo post do blog e ele não foi publicado!',
+                author: 'Bruna',
+                created_date: DateTime.new(2019, 9, 30, 13, 0),
+                published_date: DateTime.new(2019, 9, 30, 13, 0),
+                created_at: DateTime.new(2019, 9, 30, 13, 0),
+                updated_at: DateTime.new(2019, 9, 30, 13, 0)},
+                { title: 'Terceiro Post',
+                text: 'Este é o terceiro post do blog!',
+                author: 'Angela',
+                created_date: DateTime.new(2019, 9, 30, 14, 0),
+                published_date: DateTime.new(2019, 9, 30, 15, 0),
+                created_at: DateTime.new(2019, 9, 30, 14, 0),
+                updated_at: DateTime.new(2019, 9, 30, 14, 30)}
+                ])
+```
+
+Estas várias linhas nada mais fazem do que criar três blog posts. Vamos salvar o `seeds.rb` e vamos criar os comandos necessários para executá-lo.
+
+#### Criando o comando de execução
+
+Para facilitar nossas vidas, vamos criar um novo comando no Codenvy só para popular nosso banco. Vamos acessar a aba `Commands` como mostra a figura abaixo. Vamos clicar no sinal de mais na aba de `run`e selecionar `Custom`.
+
+![Criando um novo comando](../images/codenvy/new_command.png)
+
+Uma nova tela como a da imagem abaixo aparecerá. Vamos adicionar um nome que indica que exatamente o que o comando faz: `preenchebanco`. Assim saberemos quando utilizá-lo. Em seguida, vamos preencher o comando com o seguinte texto:
+
+```
+cd ${current.project.path}
+rails db:reset db:migrate db:seed
+```
+
+Estas linhas significam que iremos para a pasta do projeto e executaremos:
+
+* `rails db:reset`: o banco será limpo. Caso seja necessário apagar o que temos de posts existentes, poderemos utilizar este mesmo comando.
+* `rails db:migrate`: como já explicado acima.
+* `rails db:seed`: serão criados os posts que definimos no arquivo `seeds.rb`.
+
+![Salvando um novo comando](../images/codenvy/save_command.png)
+
+Agora vamos clicar em `SAVE` e poderemos utilizar o `preencherbanco` sempre que a máquina hibernar!
+
 ### Vamos ver o que aparece no navegador agora?
 
 ![Blog funcionando](../images/rails/rails_inicial.png)
